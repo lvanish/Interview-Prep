@@ -4,6 +4,7 @@ using namespace std;
  // } Driver Code Ends
 class Solution {
 public:
+    // You can pass visited array by reference also
     bool dfs(vector<int> adj[], int start, int parent, bool vis[]){
         
         vis[start] = true;
