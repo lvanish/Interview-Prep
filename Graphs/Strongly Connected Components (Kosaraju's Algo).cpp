@@ -23,7 +23,7 @@ void dfs(vector<int> adj[], stack<int> &s, int src, bool vis[]){
         
         for(int i = 0; i<V; i++){
             if(!vis[i]){
-                dfs(adj, s, i, vis);
+                dfs(adj, s, i, vis); // sort dfs according to finish time
             }
         }
         
